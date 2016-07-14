@@ -56,8 +56,7 @@ int main(void)
 	  display_HD44780_write_string_position(temperature,1,8); // Display processed data on the display - temperature.
 	  display_HD44780_write_string_position(humidity,2,8); // Display processed data on the display - humidity.
 
-	  HAL_Delay(2000);
-
+	  HAL_Delay(2000); // Measure the temperature and humidity every two seconds.
 
     }
 }
