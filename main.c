@@ -1,4 +1,4 @@
-/* Example of using temperature and humidity sensor SHT21r.
+/* Example of using temperature and humidity sensor SHT21.
  * David Hladky
  * 2016
  * Version 1.0 Update 14-7-2016
