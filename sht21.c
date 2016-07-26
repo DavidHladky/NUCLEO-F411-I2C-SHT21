@@ -17,8 +17,8 @@ uint8_t sht21_read_user_reg(void)
 {
 	uint8_t user_reg, commnad = SHT21_READ_USER_REGISTER;
 	HAL_I2C_Master_Transmit(&I2C1_struct,I2C_dev_add,&commnad,1,1000); // Send command to the SHT21.
-		HAL_Delay(55);
-		HAL_I2C_Master_Receive(&I2C1_struct,I2C_dev_add,user_reg,1,3000);
+	HAL_Delay(55);
+	HAL_I2C_Master_Receive(&I2C1_struct,I2C_dev_add,user_reg,1,3000);
 	return user_reg;
 }
 
