@@ -3,4 +3,4 @@ This library deals with the operation of the library for the sensor SHT21. The l
 
 ## Description of functions in the file SHT21.c
 * The first function is `sht21_soft_reset()`. This function performs a software reset SHT21 and set to default.
-* Other functions are `sht21_read_user_reg()` and `sht21_write_user_reg()` to perform read and write user registry, which sets the measurement accuracy of temperature and humidity. For more information about the user registry visit https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT21_Datasheet_V4.pdf.
+* Other functions are `sht21_read_user_reg()` and `sht21_write_user_reg()` to perform read and write user registry, which sets the measurement accuracy of temperature and humidity. For more information about the user registry visit this page.[Link Text](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT21_Datasheet_V4.pdf.) 
